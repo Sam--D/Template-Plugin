@@ -13,11 +13,16 @@
  */
 
 using System;
+
 using Terraria;
+using TerrariaApi;
+using TerrariaApi.Server;
+
+using TShockAPI;
 
 namespace TemplatePlugin
 {
-    [APIVersion(1, 11)]
+    [ApiVersion(1, 14)]
     public class TemplatePlugin : TerrariaPlugin
     {
         public override Version Version
